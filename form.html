@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Title -->
+	<title>UKM D'PIXEL</title>
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container-md">
+		<h1 class="text-center mt-3">Pendaftaran Anggota UKM D'PIXEL</h1>
+		<div class="tempat-alert"></div>
+		<form name="form-daftar">
+			<div class="mb-3 mt-3">
+			  <label for="email" class="form-label">Email</label>
+			  <input type="email" class="form-control" id="email" name="email">
+			</div>
+			<div class="mb-3">
+			  <label for="nim" class="form-label">NIM</label>
+			  <input type="number" class="form-control" id="nim" name="nim">
+			</div>
+			<div class="mb-3">
+			  <label for="nama" class="form-label">Nama</label>
+			  <input type="text" class="form-control" id="nama" name="nama">
+			</div>
+			<div class="mb-3">
+				<label for="kelamin" class="form-label">Jenis Kelamin</label>
+				<select class="form-select" name="jeniskelamin">
+				  <option selected>...</option>
+				  <option value="Laki-laki">Laki-laki</option>
+				  <option value="Perempuan">Perempuan</option>>
+				</select>
+			</div>
+			<div class="mb-3">
+			  <label for="ttl" class="form-label">Tempat Tanggal Lahir</label>
+			  <input type="text" class="form-control" id="ttl" name="ttl">
+			</div>
+			<div class="mb-3">
+			  <label for="nohp" class="form-label">No HP</label>
+			  <input type="number" class="form-control" id="nohp" name="nohp">
+			</div>
+			<div class="mb-3">
+				<label for="fakultas" class="form-label">Fakultas</label>
+				<select class="form-select" name="fakultas">
+				  <option selected>...</option>
+				  <option value="Fakultas Teknik">Fakultas Teknik</option>
+				  <option value="Fakultas Pertanian">Fakultas Pertanian</option>
+				  <option value="Fakultas Peternakan">Fakultas Peternakan</option>
+				  <option value="Fakultas Teknologi Informasi">Fakultas Teknologi Informasi</option>
+				  <option value="Fakultas Ilmu Sosial dan Ilmu Politik">Fakultas Ilmu Sosial dan Ilmu Politik</option>
+				  <option value="Fakultas Ekonomi">Fakultas Ekonomi</option>
+				  <option value="Fakultas Hukum">Fakultas Hukum</option>
+				  <option value="Fakultas Keguruan dan Ilmu Pendidikan">Fakultas Keguruan dan Ilmu Pendidikan</option>
+				</select>
+			</div>
+			<div class="mb-3">
+				<label for="prodi" class="form-label">Program Studi</label>
+				<select class="form-select" name="prodi">
+				  <option selected>...</option>
+				  <option value="Teknik Elektro">Teknik Elektro</option>>
+				  <option value="Teknik Sipil">Teknik Sipil</option>
+				  <option value="Agribisnis">Agribisnis</option>
+				  <option value="Agroteknologi">Agroteknologi</option>
+				  <option value="Ilmu Ternak">Ilmu Ternak</option>
+				  <option value="Teknik Informatika">Teknik Informatika</option>
+				  <option value="Sistem Komputer">Sistem Komputer</option>
+				  <option value="Ilmu Administrasi Negara">Ilmu Administrasi Negara</option>
+				  <option value="Ilmu Administrasi Niaga">Ilmu Administrasi Niaga</option>
+				  <option value="Sosiologi">Sosiologi</option>
+				  <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+				  <option value="Manajemen">Manajemen</option>
+				  <option value="Akuntansi">Akuntansi</option>
+				  <option value="Ilmu Hukum">Ilmu Hukum</option>
+				  <option value="Pendidikan Biologi">Pendidikan Biologi</option>
+				  <option value="Pendidikan Guru Sekolah Dasar">Pendidikan Guru Sekolah Dasar</option>
+				  <option value="Pendidikan Pancasila dan Kewarganegaraan">Pendidikan Pancasila dan Kewarganegaraan</option>
+				  <option value="Pendidikan Bahasa Inggris">Pendidikan Bahasa Inggris</option>
+				</select>
+			</div>
+			<div class="mb-3">
+			  <label for="alasan" class="form-label">Alasan Masuk UKM</label>
+			  <textarea class="form-control" id="alasan" rows="3" name="alasan"></textarea>
+			</div>
+			<button type="submit" class="btn btn-primary btn-kirim mb-5">Kirim</button>
+			<button class="btn btn-primary btn-loading d-none mb-5" type="button" disabled>
+			  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+			  Loading...
+			</button>
+		</form>
+	</div>
+
+	<script type="text/javascript" src="assets/js/form.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
