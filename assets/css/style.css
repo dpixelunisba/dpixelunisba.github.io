@@ -785,7 +785,7 @@ section {
   width: 50%;
 }
 @media (max-width: 768px) {
-  #tempat-alert{
+  #alert-anggota{
     width: 100% !important;
   }
   #search-nim{
