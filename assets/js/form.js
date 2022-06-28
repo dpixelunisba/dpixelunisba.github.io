@@ -2,7 +2,7 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbx4N0NuPF7NNtnQ1y6S1b
 const form = document.forms['form-daftar']
 const btnKirim = document.querySelector('.btn-kirim')
 const btnLoading = document.querySelector('.btn-loading')
-const tempatAlert = document.querySelector('.tempat-alert')
+const tempatAlert = document.querySelector('.alert-form')
 
 form.addEventListener('submit', e => {
   e.preventDefault()
@@ -21,6 +21,6 @@ form.addEventListener('submit', e => {
       `
       form.reset();
       console.log('Success!', response)
-    })
-    .catch(error => console.error('Error!', error.message))
+  })
+  .catch(error => console.error('Error!', error.message))
 })

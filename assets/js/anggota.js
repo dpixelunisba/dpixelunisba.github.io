@@ -30,7 +30,7 @@ dataAnggota();
 const input = document.getElementById('inputnim');
 const searchButton = document.getElementById('btn-search');
 const alertSearch = document.getElementById('alertSearch');
-const tempatAlert = document.getElementById('tempat-alert');
+const tempatAlert = document.getElementById('alert-anggota');
 searchButton.addEventListener('click', () => {
   const inputValue = input.value;
   tempatAlert.innerHTML = ``;
