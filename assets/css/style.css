@@ -803,3 +803,16 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/*Dan lain lain*/
+#search-nim{
+  width: 50%;
+}
+@media (max-width: 768px) {
+  #tempat-alert{
+    width: 100% !important;
+  }
+  #search-nim{
+    width: 100%;
+  }
+}
