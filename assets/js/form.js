@@ -15,7 +15,7 @@ form.addEventListener('submit', e => {
       btnLoading.classList.toggle('d-none')
       tempatAlert.innerHTML = `
         <div class="alert alert-primary alert-dismissible fade show alert-berhasil" role="alert">
-          Data berhasil dikirim!!!!!
+          Terimakasih atas kedatangannya.
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
       `
